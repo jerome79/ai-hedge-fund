@@ -58,4 +58,4 @@ profile = "black"
 force_alphabetical_sort_within_sections = true
 
 [tool.poetry.scripts]
-addopts = "-ra -q"
+backtester = "src.backtesting.cli:main"
